@@ -1,4 +1,3 @@
-import React from "react";
 import AddPhotoAlternateOutlinedIcon from '@mui/icons-material/AddPhotoAlternateOutlined';
 import DeleteOutlineOutlinedIcon from '@mui/icons-material/DeleteOutlineOutlined';
 import NoteAddOutlinedIcon from '@mui/icons-material/NoteAddOutlined';

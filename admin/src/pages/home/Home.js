@@ -1,4 +1,3 @@
-import React from "react";
 import Opening from '../../components/opening/Opening'
 import Sidebar from '../../components/sidebar/Sidebar'
 import './home.css'

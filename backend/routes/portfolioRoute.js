@@ -19,12 +19,15 @@ router.get('/:id', getPortfolio)
 // router.post('/add', verifyAdmin, createPortfolio)
 router.post('/add', createPortfolio)
 
+
 // Delete portfolio
 // router.delete('/delete/:id',verifyAdmin, deletePortfolio )
 router.delete('/delete/:id', deletePortfolio )
 
+
 // Update portfolio
 // router.put('/update/:id', verifyAdmin, updatePortfolio)
 router.put('/update/:id', updatePortfolio)
+
 
 export default router;

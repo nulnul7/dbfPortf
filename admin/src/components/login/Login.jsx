@@ -24,7 +24,7 @@ const Login = () => {
                 navigate('/getPortfolio')
             }
         } catch (error) {
-            dispatch({ type: "LOGIN_FAILED", payload: error.response })
+            dispatch({ type: "LOGIN_FAILED", payload: error.response.data })
         }
     }
 

@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 import Sidebar from "../sidebar/Sidebar";
 import "./portfolio.css";
@@ -59,12 +58,7 @@ const AddPortfolio = () => {
       };
       const statusUpdate = await Axios.post(
         "http://localhost:5500/5R2I/portfolio/add",
-        portfolioData, {
-          headers: {
-            'Content-Type': 'application/json',
-            "Authorization": "Bearer q6/UPj9oI9yQ2XVAF/2pYzTWatygBkHzmtnsRM2zf6Q"
-        },
-        }
+        portfolioData
       );
       console.log("status", statusUpdate);
       navigate("/getPortfolio");

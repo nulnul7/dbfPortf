@@ -1,4 +1,3 @@
-import React from "react";
 import './portfoliosUI.css'
 import Sidebar from "../../components/sidebar/Sidebar";
 // import {portfolioDB} from '../../Dummy'

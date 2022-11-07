@@ -1,4 +1,3 @@
-import React from "react";
 import "./portfolio.css";
 import { useState, useRef } from "react";
 import Sidebar from "../sidebar/Sidebar";

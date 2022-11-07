@@ -9,13 +9,13 @@ export const register = async (req, res, next) => {
     const hash = bcrypt.hashSync(req.body.password, salt);
     req.body.password = hash          // transfer hash password tidak bekerja didalam destructring, jadi disini aja  
 
-    const newUser = new User(req.body) 
+    const newUser = new User(req.body)
 
     try {
         const createUser = await newUser.save()
         res.status(200).json(createUser)
     } catch (error) {
-        next(error) 
+        next(error)
     }
 }
 

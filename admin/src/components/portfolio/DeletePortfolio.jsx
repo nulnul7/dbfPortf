@@ -1,4 +1,3 @@
-import React from "react";
 import axios from 'axios';
 import { useLocation, useNavigate } from 'react-router-dom';
 import Sidebar from "../sidebar/Sidebar";

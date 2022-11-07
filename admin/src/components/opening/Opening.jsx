@@ -1,4 +1,3 @@
-import React from "react";
 import "./opening.css";
 
 const Opening = () => {
